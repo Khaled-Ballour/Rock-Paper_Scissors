@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Rock, Paper and Scissors game</title>
+</head>
+<body>
+  
+  <main class="main">
+    <div class="container">
+      <h1>Rock, Paper and Scissors</h1>
+      <br>
+      <div class="score">
+        <div class="player-score">
+          <h2>Player</h2>
+          <p id="player-score">0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+      <div id="result"></div>
+      <div class="show-choise">
+        <div id="player" class="choice">
+          <img class="player-hand" src="images/rock.png" alt=""  width="150px" height="150px"/>
+        </div>
+        <div id="computer" class="choice">
+          <img class="computer-hand" src="images/rock.png" alt=""  width="150px" height="150px"/>
+        </div>
+      </div>
+
+      <div class="chose">
+        <p>--------------------------------- <b>Chose an option</b> ---------------------------------</p>
+      </div>
+
+      <div id="options"></div>
+      
+
+      <div class="btn-box">
+        <button class="btn" id="reset">next round</button>
+        <button class="btn" id="new-game">New game</button>
+      </div>
+
+    </div>
+  </main>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

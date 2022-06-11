@@ -1,0 +1,154 @@
+
+body {
+    height: 100%;
+    background-color: rgb(40, 40, 70);
+
+} 
+
+.main {
+    width: 60%;
+    height: 100%;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(40, 40, 70);
+    font-family: sans-serif;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+}
+
+button {
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+#result {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.win {
+    background-color: rgb(132, 185, 132);
+    color: rgb(2, 74, 2);
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding-top: 10px;
+
+}
+
+.loss {
+    background-color: rgb(174, 72, 68);
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.drow {
+    background-color: rgb(210, 210, 128);
+    color: black;
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 120px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(45, 117, 96);
+    color: white;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(37, 129, 37);
+}
+
+.chose {
+    text-align: center;
+}
+
+.option {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+
+.Rock {
+    background: url('../images/icons/rock0.png');
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat :no-repeat;
+    background-color: white;
+}
+
+.Paper {
+    background: url('../images//icons/paper.png');
+    background-size: 49px 49px;
+    background-position: center;
+    background-repeat :no-repeat;
+}
+
+.Scissors {
+    background: url('../images//icons/scissors.png');
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat :no-repeat;
+    text-align: right;
+}
+
+
+
+.show-choise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player-hand {
+    transform: rotatey(180deg);
+}
